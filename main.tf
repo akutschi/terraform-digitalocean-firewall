@@ -5,7 +5,7 @@ terraform {
       version = "~> 2.4"
     }
   }
-  required_version = ">= 0.14, < 0.15"
+  required_version = ">= 0.14, < 0.16"
 }
 
 resource "digitalocean_firewall" "droplet-fw" {
